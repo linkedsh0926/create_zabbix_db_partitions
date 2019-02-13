@@ -11,9 +11,9 @@ import pymysql
 from dateutil.relativedelta import relativedelta
 
 # Zabbix MySQL 数据库连接信息
-ZABBIX_DB_SERVER = "10.31.103.102"      # Zabbix MySQL 数据库地址
-ZABBIX_DB_USER = "root"                 # Zabbix MySQL 数据库账户
-ZABBIX_DB_PASS = "SaturdayOh61"         # Zabbix MySQL 数据库密码
+ZABBIX_DB_SERVER = "127.0.0.1"      # Zabbix MySQL 数据库地址
+ZABBIX_DB_USER = "root"             # Zabbix MySQL 数据库账户
+ZABBIX_DB_PASS = "password"         # Zabbix MySQL 数据库密码
 
 # Zabbix 历史数据 & 趋势数据保留信息
 HISTORY_RETENTION_DAYS = 30             # 历史数据保留时间(天)
