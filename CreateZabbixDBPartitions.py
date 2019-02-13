@@ -1,6 +1,13 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+# Author: linkedsh
+# Email: linkedsh#outlook.com
+# Mozilla Public License 2.0
+# Date: 2019-02-13
+# Funtion: Create paritions for zabbix MySQL tables.
+# Repo: https://github.com/linkedsh0926/create_zabbix_db_partitions
+
 import datetime
 import logging
 import random
